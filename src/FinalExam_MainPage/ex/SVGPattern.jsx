@@ -25,7 +25,7 @@ function SVGPattern() {
                 >
                     <g id="h">
                         <path
-                            fill="#E4E4E4"
+                            fill="#4F4F4F"
                             d="M 2 42 l 23 -40 h 46 l 23 40 l -23 40 h -46 z"
                         />
                         <path
@@ -44,7 +44,7 @@ function SVGPattern() {
                     <use href="#h" x="-75" y="135" />
                 </pattern>
             </defs>
-            <rect width="100%" height="100%" fill="#D2D2D2" />
+            <rect width="100%" height="100%" fill="#616161" />
             <rect width="100%" height="100%" fill="url(#hex)" />
         </svg>
     );

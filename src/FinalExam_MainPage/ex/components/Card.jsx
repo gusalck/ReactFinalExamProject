@@ -1,12 +1,11 @@
 import React from 'react';
 
-function Card({ title, price, rating, imageUrl }) {
+function Card({ title, people, imageUrl }) {
     return (
         <div className="card">
             <img src={imageUrl} alt={title} />
-            <h3>{title}</h3>
-            <p>₩{price.toLocaleString()} / 박</p>
-            <p>★ {rating}</p>
+            <p>{title}</p>
+            <p>{people}</p>
         </div>
     );
 }
