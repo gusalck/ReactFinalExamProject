@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.css';
+import '../AirApp.css';
 import img1 from '../imgs/Songimage1.jpg';
 import img2 from '../imgs/SongIMG4.jpg';
 import img3 from '../imgs/SongImg3.jpg';
@@ -35,6 +35,20 @@ function Hero() {
         },
         {
             id: 5,
+            title: "최신 팝업 공간 음향",
+            subtitle: "STRATEGY",
+            description: "Megan Thee Stallion 피처링 타이틀곡으로 첫 날개를 단 TWICE의 무한한 변신.",
+            imageUrl: img2,
+        },
+        {
+            id: 6,
+            title: "최신 팝업 공간 음향",
+            subtitle: "STRATEGY",
+            description: "Megan Thee Stallion 피처링 타이틀곡으로 첫 날개를 단 TWICE의 무한한 변신.",
+            imageUrl: img2,
+        },
+        {
+            id: 7,
             title: "최신 팝업 공간 음향",
             subtitle: "STRATEGY",
             description: "Megan Thee Stallion 피처링 타이틀곡으로 첫 날개를 단 TWICE의 무한한 변신.",
